@@ -1,27 +1,26 @@
-  ![Alt_text](http://ufonet.03c8.net/ufonet/ufonet-gui4_small.png "UFONet Botnet Attacking Map")
+  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-hydra-welcome_small.png "UFONet Welcome")
 
+----------
 
-  UFONet - is a tool designed to launch DDoS attacks against a target, 
-  using 'Open Redirect' vectors on third party web applications, like botnet.
+ + Web:  https://ufonet.03c8.net
 
-  See this links for more info:
+----------
+
+ + FAQ:  https://ufonet.03c8.net/FAQ.html
+
+----------
+
+  UFONet - is a toolkit designed to launch DDoS and DoS attacks.
+
+  See these links for more info:
 
    - CWE-601:Open Redirect: 
-     http://cwe.mitre.org/data/definitions/601.html
+     https://cwe.mitre.org/data/definitions/601.html
 
    - OWASP:URL Redirector Abuse: 
      https://www.owasp.org/index.php/OWASP_Periodic_Table_of_Vulnerabilities_-_URL_Redirector_Abuse2
 
-  ![Alt text](http://ufonet.03c8.net/ufonet/ufonet-schema.png "UFONet Schema")
-
-----------
-
- UFONet is released under the GPLv3. You can find the full license text
-in the [LICENSE](./docs/LICENSE) file.
-
-----------
-
- + Web:  http://ufonet.03c8.net
+  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-schema.png "UFONet Schema")
 
 ----------
 
@@ -31,11 +30,18 @@ in the [LICENSE](./docs/LICENSE) file.
 
        python-pycurl - Python bindings to libcurl
        python-geoip  - Python bindings for the GeoIP IP-to-country resolver library
+       python-whois  - Python module for retrieving WHOIS information - Python 2
        python-crypto - Cryptographic algorithms and protocols for Python
+       python-requests - elegant and simple HTTP library for Python2, built for human beings
+       python-scapy - Packet generator/sniffer and network scanner/discovery
 
-  On Debian-based systems (ex: Ubuntu), run: 
+  You can automatically get all required libraries using:
 
-       sudo apt-get install python-pycurl python-geoip python-crypto
+       python setup.py install
+
+  For manual installation, on Debian-based systems (ex: Ubuntu), run: 
+
+       sudo apt-get install python-pycurl python-geoip python-whois python-crypto python-requests python-scapy
 
   On other systems such as: Kali, Ubuntu, ArchLinux, ParrotSec, Fedora, etc... also run:
 
@@ -45,11 +51,48 @@ in the [LICENSE](./docs/LICENSE) file.
 
 ####  Source libs:
 
- * Python: https://www.python.org/downloads/
- * PyCurl: http://pycurl.sourceforge.net/
- * PyGeoIP: https://pypi.python.org/pypi/GeoIP/
- * PyCrypto: https://pypi.python.org/pypi/pycrypto
- * Leaflet: http://leafletjs.com/ (provided)
+   * Python: https://www.python.org/downloads/
+   * PyCurl: http://pycurl.sourceforge.net/
+   * PyGeoIP: https://pypi.python.org/pypi/GeoIP/
+   * PyWhois: https://pypi.python.org/pypi/whois
+   * PyCrypto: https://pypi.python.org/pypi/pycrypto
+   * PyRequests: https://pypi.python.org/pypi/requests
+   * PyScapy: https://pypi.org/project/scapy/
+   * Leaflet: http://leafletjs.com/ (provided)
 
 ----------
 
+####  License:
+
+  UFONet is released under the GPLv3. You can find the full license text
+in the [LICENSE](./docs/LICENSE) file.
+
+----------
+
+####  Screenshots (current version!):
+
+  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-hydra-shell1_small.png "UFONet Shell")
+
+  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-hydra-shell2_small.png "UFONet GUI Shell")
+
+  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-hydra-welcome_small.png "UFONet GUI Welcome")
+
+  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-hydra-main_small.png "UFONet GUI Main Panel")
+
+  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-hydra-botnet_small.png "UFONet GUI Botnet")
+
+  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-hydra-stats_small.png "UFONet GUI General Stats")
+
+  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-hydra-board_small.png "UFONet GUI Board/Forum")
+
+  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-hydra-grid_small.png "UFONet GUI Grid")
+
+  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-hydra-grid2_small.png "UFONet GUI Grid Stats")
+
+  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-hydra-wargames_small.png "UFONet GUI Wargames")
+
+  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-hydra-attack_small.png "UFONet GUI Attack")
+
+  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-gui3_small.png "UFONet GeoMap /deploying/")
+
+  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-gui4_small.png "UFONet GeoMap /attacking/")

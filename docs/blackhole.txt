@@ -7,7 +7,7 @@ How to set up a 'blackhole' - eg a P2P/Community 'zombies' server
   - Owned by the user running the blackhole
   - Accessible with http://<your ip>/ufonet/
 
-* Start the blackhole with 
+* Start the blackhole with:
   ./ufonet --blackhole or python2 blackhole.py
 
 * Anyone wanting to connect to your server needs to set the --up-to/--down-from 
@@ -15,6 +15,6 @@ How to set up a 'blackhole' - eg a P2P/Community 'zombies' server
 
 ===============================================================
 
-WARNING : this *ADVANCED* function is *NOT* secure, proceed if you really want to.
+WARNING: this *ADVANCED* function is *NOT* secure, proceed if you really want to.
 
 ===============================================================
